@@ -20,23 +20,9 @@ The system handles six main entities: `Customer`, `Storekeeper`, `VehicleMake`, 
 - **Language:** Java 17
 
 ## Prerequisites
-Before running this project, ensure you have the following installed:
 - Java Development Kit (JDK) 17 or higher
 - Apache Maven
 - PostgreSQL Database Server (and a GUI tool like pgAdmin)
 - Postman (for testing the API endpoints)
 
-## Database Setup
-1. Open your PostgreSQL server (e.g., via pgAdmin).
-2. Create a new empty database named: `car_spare_parts_db`
-3. Open the project in IntelliJ IDEA.
-4. Navigate to `src/main/resources/application.properties`.
-5. Update the database credentials to match your local PostgreSQL setup:
-   ```properties
-   spring.datasource.url=jdbc:postgresql://localhost:5432/car_spare_parts_db
-   spring.datasource.username=postgres
-<<<<<<< HEAD
-   spring.datasource.password=arsenal32
-=======
-   spring.datasource.password=arsenal32
->>>>>>> ce5f825ccbba070249b9dce39e6833d979b10bad
+
